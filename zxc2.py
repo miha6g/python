@@ -30,3 +30,4 @@ while True:
         print(random.randint(0, 100))
     if a == "exit":
         break
+print("123")
