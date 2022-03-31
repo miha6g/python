@@ -5,5 +5,5 @@ for i in range(len(a)-1):
     if i==2:
        continue
     print(a[i])
-
+#test2
 
