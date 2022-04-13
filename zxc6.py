@@ -3,7 +3,8 @@ import random
 
 
 class Calculator:
-    def basemath(self, operation):
+    @staticmethod
+    def basemath(operation):
         x = float(input("x = "))
         y = float(input("y = "))
         if operation == "+":
@@ -17,7 +18,9 @@ class Calculator:
                 print("Делить на 0 нельзя")
                 return
             print(x / y)
-    def mathpro(self, operation):
+
+    @staticmethod
+    def mathpro(operation):
         x = float(input("x = "))
         if operation == "exponentiation":
             print(math.exp(x))
@@ -27,7 +30,9 @@ class Calculator:
             print(math.factorial(x))
         if operation == "arccos":
             print(math.acos(x))
-    def random(self):
+
+    @staticmethod
+    def random():
         print(random.randint(0, 100))
 
 
