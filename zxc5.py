@@ -32,11 +32,11 @@ def rand():
 while True:
     a=input("Какую операцию вы хотите выполнить: +, - , / , * , exponentiation, module, random , factorial , arccos , exit : ")
     if a in ('+', '-', '*', '/'):
-        zxc(a)
+        basemath(a)
     if a in ("exponentiation", "module", "factorial", "arccos"):
-        zxc1(a)
+        mathpro(a)
     if a == "random":
-        zxc2()
+        rand()
     if a == "exit":
         break
 
