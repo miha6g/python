@@ -32,16 +32,14 @@ class Calculator:
 
 
 while True:
+    calc = Calculator()
     a = input(
         "Какую операцию вы хотите выполнить: +, - , / , * , exponentiation, module, random , factorial , arccos , exit : ")
     if a in ('+', '-', '*', '/'):
-        calc = Calculator()
         calc.basemath(a)
     if a in ("exponentiation", "module", "factorial", "arccos"):
-        calc = Calculator()
         calc.mathpro(a)
     if a == "random":
-        calc = Calculator()
         calc.random()
     if a == "exit":
         break
