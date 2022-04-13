@@ -1,6 +1,6 @@
 import math
 import random
-def zxc(operation):
+def basemath(operation):
     x = float(input("x = "))
     y = float(input("y = "))
     if operation == "+":
@@ -14,7 +14,7 @@ def zxc(operation):
             print("Делить на 0 нельзя")
             return
         print(x / y)
-def zxc1(operation):
+def mathpro(operation):
     x = float(input("x = "))
     if operation == "exponentiation":
         print(math.exp(x))
@@ -24,7 +24,7 @@ def zxc1(operation):
         print(math.factorial(x))
     if operation == "arccos":
         print(math.acos(x))
-def zxc2():
+def rand():
     print(random.randint(0, 100))
 
 
