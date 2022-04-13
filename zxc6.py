@@ -32,20 +32,20 @@ class Calculator:
             print(math.acos(x))
 
     @staticmethod
-    def random():
+    def rand():
         print(random.randint(0, 100))
 
 
 while True:
-    calc = Calculator()
+
     a = input(
         "Какую операцию вы хотите выполнить: +, - , / , * , exponentiation, module, random , factorial , arccos , exit : ")
     if a in ('+', '-', '*', '/'):
-        calc.basemath(a)
+        Calculator.basemath(a)
     if a in ("exponentiation", "module", "factorial", "arccos"):
-        calc.mathpro(a)
+        Calculator.mathpro(a)
     if a == "random":
-        calc.random()
+        Calculator.rand()
     if a == "exit":
         break
 
