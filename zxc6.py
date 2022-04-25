@@ -1,8 +1,5 @@
 from mymodule import Calculator
 
-
-
-
 while True:
 
     a = input(
@@ -15,4 +12,3 @@ while True:
         Calculator.rand()
     if a == "exit":
         break
-
